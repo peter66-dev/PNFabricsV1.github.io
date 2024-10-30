@@ -7,7 +7,7 @@ html
 }
 :root
 {
-    --main-color:#cfd910;
+    --main-color:#d9c210;
     --shadow-black-100:0 5px 15px rgba(0,0,0,0.2);
     --black-900:#000;
     --black-400:#646f87;
@@ -59,6 +59,10 @@ img
 .align-items-center
 {
     align-items: center;
+    height: 500px;
+}
+.title-company{
+    font-family: Playfair Display;
 }
 .btn-1
 {
@@ -170,7 +174,7 @@ img
 }
 .navbar .logo a span
 {
-    color: var(--main-color);
+    color: #FF5F1F;
 }
 .navbar .menu .nav-item
 {
@@ -267,6 +271,7 @@ img
     z-index: 1;
     overflow-x: hidden;
     padding-top: 80px;
+    height: 40%;
 }
 .header-social
 {
@@ -303,6 +308,7 @@ img
     font-weight: 600;
     letter-spacing: 4px;
     color: var(--main-color);
+    width: max-content;
 }
 .home-section .home-text h1
 {
@@ -352,7 +358,7 @@ img
     content: '';
     width: 1000%;
     height: 100%;
-    background-color: var(--main-color);
+    background-color: #FF5F1F;
     transform: skewX(20deg);
     top: 0;
     left: 0;
